@@ -11,4 +11,19 @@
   ~~~
   
   ![image](mysql-instances.jpg)
+  
+  Lunch the Instances, then update and upgrade them
+  ~~~
+  sudo apt update -y && sudo apt upgrade -y
+  ~~~
 
+1. Task Two
+  On mysql-server, install mysql server package
+  ~~~
+  sudo apt install mysql-server -y
+  ~~~
+  
+  On mysql-client, install mysql client package
+  ~~~
+  sudo apt install mysql-client -y
+  ~~~
