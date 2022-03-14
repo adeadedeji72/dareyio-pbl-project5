@@ -2,7 +2,7 @@
 
 ### **TASKS – Implement a Client Server Architecture using MySQL Database Management System (DBMS)** ###
 
-1. Task One
+1. **Task One**
   Create two EC2 Instance
   Name them mysql server and mysql client respectively
   ~~~
@@ -17,7 +17,7 @@
   sudo apt update -y && sudo apt upgrade -y
   ~~~
 
-1. Task Two
+2. **Task Two**
   On mysql-server, install mysql server package
   ~~~
   sudo apt install mysql-server -y
@@ -28,12 +28,12 @@
   sudo apt install mysql-client -y
   ~~~
   
-1. Task Three
+3. **Task Three**
   Allow mysql-client access mysql-server remotely through security group inbound rule.
   
   ![image](mysql-inbound-rule.jpg)
   
-1. Task Four
+4. **Task Four**
   COnfigure the mysql server to allow connection from remote hosts
   ~~~
   sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
@@ -70,7 +70,7 @@
   GRANT ALL ON test.* TO 'testeruser';
   ~~~
   
-1. Task Five
+5. **Task Five**
   Go to mysql-client machine, login to MySQL database on mysql-server machine
   ~~~
   mysql -u testeruser -p -h 172.31.90.97
@@ -80,6 +80,6 @@
   mysql> show databases;
   ~~~
   
-  ![image](
+  ![image](remote-connection.jpg)
   
 
