@@ -27,3 +27,9 @@
   ~~~
   sudo apt install mysql-client -y
   ~~~
+  
+1. Task Three
+  Allow mysql-client access mysql-server remotely through security group inbound rule.
+  
+  ![image](mysql-inbound-rule.jpg)
+  
