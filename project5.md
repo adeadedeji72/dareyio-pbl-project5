@@ -44,7 +44,7 @@
   ![image](mysql_bind_unchanged.jpg)
   
   To
-  ![image](mysql_bind_changed.jpg)
+  ![image](mysql_bind_changed1.jpg)
   
   Confirm the server is running on mysql-server machine
   ~~~
