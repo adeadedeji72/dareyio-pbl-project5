@@ -44,5 +44,5 @@
   ![image](mysql_bind_unchanged.jpg)
   
   To
-  ![image](mysql_bind_unchanged.jpg)
+  ![image](mysql-bind-unchanged.jpg)
 
