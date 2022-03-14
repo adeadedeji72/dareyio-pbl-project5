@@ -45,4 +45,10 @@
   
   To
   ![image](mysql_bind_changed.jpg)
+  
+  Confirm the server is running on mysql-server machine
+  ~~~
+  sudo systemctl status mysql
+  ~~~
+  
 
