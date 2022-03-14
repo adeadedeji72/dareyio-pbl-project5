@@ -82,4 +82,6 @@
   
   ![image](remote-connection.jpg)
   
+  ### **Sample** ###
+  ![image](sample-tables.jpg)
 
