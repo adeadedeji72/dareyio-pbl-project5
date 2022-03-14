@@ -33,3 +33,16 @@
   
   ![image](mysql-inbound-rule.jpg)
   
+1. Task Four
+  COnfigure the mysql server to allow connection from remote hosts
+  ~~~
+  sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
+  ~~~
+  Replace the values of bind-address and mysqlx-bind-address with 0.0.0.0/0 from 127.0.0.1
+  
+  From
+  ![image](mysql-bind-unchanged.jpg)
+  
+  To
+  ![image](mysql-bind-unchanged.jpg)
+
