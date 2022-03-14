@@ -10,5 +10,5 @@
   mysql-client
   ~~~
   
-  ![image](mysql-instance.jpg)
+  ![image](mysql-instances.jpg)
 
