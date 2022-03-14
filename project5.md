@@ -41,8 +41,8 @@
   Replace the values of bind-address and mysqlx-bind-address with 0.0.0.0/0 from 127.0.0.1
   
   From
-  ![image](mysql-bind-unchanged.jpg)
+  ![image](mysql_bind_unchanged.jpg)
   
   To
-  ![image](mysql-bind-unchanged.jpg)
+  ![image](mysql_bind_unchanged.jpg)
 
