@@ -53,4 +53,22 @@
   
   ![image](mysql-running.jpg)
   
+  Login to mysql on mysql-server as root user
+  ~~~
+  sudo mysql -u root
+  ~~~
+  Create a test database
+  ~~~
+  CREATE DATABASE test DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+  ~~~
+  Create a database user and its password 
+  ~~~
+  create user 'testeruser' IDENTIFIED BY 'mysql';
+  ~~~
+  Grant Full Access to the user
+  ~~~
+  GRANT ALL ON test.* TO 'testeruser';
+  ~~~
+  
+  
 
