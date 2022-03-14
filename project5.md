@@ -6,6 +6,9 @@
   Create two EC2 Instance
   Name them mysql server and mysql client respectively
   ~~~
-  mysql server
-  mysql client
+  mysql-server
+  mysql-client
   ~~~
+  
+  ![image](https://user-images.githubusercontent.com/99276192/158182222-8b83b5fc-f20d-4474-8dda-2a1cdbf152e2.png)
+
