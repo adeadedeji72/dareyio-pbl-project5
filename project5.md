@@ -51,4 +51,6 @@
   sudo systemctl status mysql
   ~~~
   
+  ![image](mysql-running.jpg)
+  
 
