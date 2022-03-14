@@ -70,5 +70,16 @@
   GRANT ALL ON test.* TO 'testeruser';
   ~~~
   
+1. Task Five
+  Go to mysql-client machine, login to MySQL database on mysql-server machine
+  ~~~
+  mysql -u testeruser -p -h 172.31.90.97
+  ~~~
+  Show databases on the remote MySQL server
+  ~~~
+  mysql> show databases;
+  ~~~
+  
+  ![image](
   
 
